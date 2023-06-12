@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grim Reaper Dice Game</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./static/css/main.css">
+</head>
+<body>
+  <audio id="devil-dont-play" controls autoplay>
+    <source src="./static/songs/Elle_King_Where_the_Devil_Dont_Go.mp3" type="audio/mpeg">
+  </audio>
+  <div id="game-container" class="container">
+    <div class="col-lg-10">
+        <label>
+          <em><strong>Welcome to my darkness...if you dare play my dice game.</strong></em>
+        </label>
+        <label>
+          <em><strong>I might not give you what you want, but I'll make sure you get what you deserve, play until Escaped Death is accomplished.</strong></em>
+        </label>
+        <label>
+          <em><strong>I am the reaper of souls, and my scythe is my tool, play my dice game if you dare to win.</strong></em>
+        </label>
+        <label>
+          <em><strong>If you can not escape death, it is Game Over for you and your soul will be mine for all eternity. </strong></em>
+        </label>
+    <h1 class="mt-5" id="reaper-dice-game"><strong><u>Reaper Dice Game</u></strong></h1>
+    <div id="scoreboard" class="mt-4">
+      <h2><u>Souls Scoreboard</u></h2>
+      <div id="soul_1"></div>
+      <div id="soul_2"></div>
+      <div id="soul_3"></div>
+      <div id="soul_4"></div>
+      <div id="soul_5"></div>
+      <div id="soul_6"></div>
+      <p id="roll-score"></p>
+      <p id="total-score"></p>
+    </div>
+    <button id="bet-your-life" class="btn btn-primary">
+      <strong><u>Bet Your Life</u></strong>
+    </button>
+    <p id="life_result" class="mt-3"></p>
+  </div>
+
+  <script src="./static/js/index.js"></script>
+</body>
+</html>
